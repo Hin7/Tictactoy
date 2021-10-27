@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 
-import StatusHeader from './StatusHeader';
+import StatusHeader, { playerTypes } from './StatusHeader';
 import GameBoard from "./GameBoard";
 
 const styles = {
@@ -17,10 +17,6 @@ const styles = {
         justifyContent: 'center'
     }
 };
-
-//типы игроков
-//дублируются в StatusHeader.js потом разберусь, как оставить один
-const playerTypes = ["игрок", "компьютер"];
 
 class App extends Component {
  constructor(props) {

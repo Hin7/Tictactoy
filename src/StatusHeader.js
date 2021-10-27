@@ -24,7 +24,7 @@ const styles = {
 };
 
 //типы игроков
-const playerTypes = ["игрок", "компьютер"];
+export const playerTypes = ["игрок", "компьютер"];
 //комбобокс выбора типа игрока
 const PlayerTypeChoose = ({initValue, selectType}) => (
 
